@@ -53,7 +53,7 @@ def main():
 
 # # Load CSV as Dask DataFrame
 #     data = dd.read_csv('/Users/savethebees/Downloads/df_broad.csv', dtype=meta)
-    data = dd.read_csv('./Data/df_broad.csv', dtype=meta)
+    data = dd.read_csv('../Data/df_broad.csv', dtype=meta)
 
 # Define NTEE categories
     ntee_categories = {
